@@ -1,7 +1,7 @@
 body{
     background-image: url(Recursos/espiral1.png);
     background-repeat: repeat-y;
-    background-color: #85C1E9;
+    background-color: green; //cambio color #85C1E9 por green
 }
 
 .principal{
