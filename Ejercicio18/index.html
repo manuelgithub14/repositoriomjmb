@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <title>Ejercicio18</title>
     <link rel="stylesheet" href="estilo.css">
+    <script >
+        window.onload = function (){
+            var div =  document.getElementsByClassName("tercero")
+            div[0].setAttribute("onclick", "color_aleatorio(this)");
+
+         }
+
+        function color_aleatorio(e){
+            var r = parseInt(Math.random()*99);
+            var g = parseInt(Math.random()*99);
+            var b = parseInt(Math.random()*99);
+            var color = "#"+r+g+b;
+            e.setAttribute("style", "background-color:"+color+";");
+         }
+    </script>
 </head>
 <body>
     <div class="principal">
